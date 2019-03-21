@@ -6,6 +6,6 @@ docker-compose project for easier local AWS Glue development
 2. Create or move your private SSH key to `zeppelin-glue/keys/key.pem`
 
 # Usage
-`ENDPOINT=<your-endpoint-public-address> docker-compose up --build` in the root directory.
+`./start.sh <endpoint-name>` in the root directory.
 
 You should now have Zeppelin running on http://localhost:8080 with the necessary interpreter configurations already tweaked for AWS Glue. Your notebooks and logs will persist to their relative directories in this project.
