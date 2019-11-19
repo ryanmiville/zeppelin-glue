@@ -1,4 +1,4 @@
-FROM apache/zeppelin:0.7.3
+FROM apache/zeppelin:0.8.1
 
 ADD glue.sh $Z_HOME/bin/glue.sh
 ADD interpreter.json $Z_HOME/conf/interpreter.json
